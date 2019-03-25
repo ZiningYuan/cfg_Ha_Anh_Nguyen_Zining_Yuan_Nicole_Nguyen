@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href='static/bootstrap.min.css' rel='stylesheet' />
+  <link href='static/style.css' rel='stylesheet' />
+  <<meta name='viewport' content="width=device-width, initial-scale=1" />
+  <script src='stat/js/script.js'></script>
+</head>
+
+<body>
+  <div class='container'>
+    <div class='jumbotron'>
+      <div class='row'>
+        <div class='row-sm-2'>
+          <h1>World cuisines</h1>
+        </div>
+        <div class='row-sm-2'>
+          <img src='static/world.jpg'>
+          <form action="/getherfeedback" method="post">
+
+        <label for="body">Do you find our websitse helpful? Is there anything you think we should improve on?</label><br/>
+        <textarea name="body" id="body" required></textarea><br/>
+
+        <button type="submit">Sumbit</button>
+
+    </form>
+        </div>
+      </div>
+    </div>
+
+<div class='text-center' id="buzz">
+<h2>Food</h2>
+<br />What is your favourite cuisine?</h2>
+<p>Please choose your cusine from below!</p>
+
+<div class='row'>
+            <div class='col-md-7'>
+              <img class='img-circle' src='static/american.jpg'>
+              <blockquote>
+              <p>These American burgers are truly one of a kind!</p>
+              <small>Pearl Yuan</small>
+              </blockquote>
+            </div>
+            <div class='col-md-7'>
+              <img class='img-circle' src='static/british.jpg'>
+              <blockquote>
+              <p>British cuisine is far more versatile than people would think!</p>
+              <small>Ha Anh Nguyen</small>
+              </blockquote>
+            </div>
+            <div class='col-md-7'>
+              <img class='img-circle' src='static/caribbean.jpg'>
+              <blockquote>
+              <p>Not the most popular among people, but definitely worth a try!</p>
+              <small>Nicole Nguyen</small>
+              </blockquote>
+            </div>
+      </div>
+  </div>
+
+
+</body>
